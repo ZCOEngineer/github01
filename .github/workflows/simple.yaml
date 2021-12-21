@@ -13,3 +13,8 @@ jobs:
           node -v
           npm -v
           date
+      - name: python command
+        run: |
+          import platform
+          print (platofrm.processor())
+        shell: python
