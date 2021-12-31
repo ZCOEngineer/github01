@@ -22,3 +22,5 @@ jobs:
       - name: List files After checkout
         run:  |
           ls -a
+          cd .github
+          ls -a
