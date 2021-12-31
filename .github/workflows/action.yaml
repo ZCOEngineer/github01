@@ -13,3 +13,8 @@ jobs:
           who-to-greet: 'Mona the Octocat'
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time }}"
+      - name: List files
+        run:  |
+          pwd
+          ls
+         
