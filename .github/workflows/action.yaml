@@ -21,4 +21,4 @@ jobs:
         uses: actions/checkout@v1
       - name: List files After checkout
         run:  |
-          ls
+          ls -a
